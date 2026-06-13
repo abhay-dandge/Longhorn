@@ -110,15 +110,21 @@ kubectl exec nginx-longhorn -- cat /data/test.txt
 ## Access Longhorn UI
 
 ```bash
-kubectl -n longhorn-system port-forward svc/longhorn-frontend 8080:80
+kubectl patch svc longhorn-frontend \
+-n longhorn-system \
+-p '{"spec":{"type":"NodePort"}}'
+
+kubectl get svc longhorn-frontend -n longhorn-system
 ```
-<img width="910" height="95" alt="image" src="https://github.com/user-attachments/assets/fa0ae728-8cee-4c85-a7c8-7c546fd85dd4" />
+<img width="826" height="169" alt="image" src="https://github.com/user-attachments/assets/b86dbfcf-4b57-4535-8eb1-721a24631206" />
+
 
 Open:
 
 ```text
-http://localhost:8080
+http://localhost:31793 | Access using nodeport 
 ```
+<img width="1366" height="617" alt="image" src="https://github.com/user-attachments/assets/e7cb3a05-0eb1-4174-a900-3a0a79a5c876" />
 
 ## Cleanup
 
