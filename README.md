@@ -90,6 +90,7 @@ kubectl exec -it nginx-longhorn -- sh
 ```bash
 echo "Longhorn Test" > /data/test.txt
 ```
+<img width="667" height="74" alt="image" src="https://github.com/user-attachments/assets/7a712bd8-1df7-4367-8f42-ec4362178a3f" />
 
 Delete and recreate pod:
 
