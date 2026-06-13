@@ -62,7 +62,9 @@ cd longhorn-k8s-demo
 chmod +x scripts/install-longhorn.sh
 ./scripts/install-longhorn.sh
 ```
+<img width="830" height="574" alt="image" src="https://github.com/user-attachments/assets/3fb3b4ab-0bf6-438a-b7a6-ee116edbc7dd" />
 
+<img width="777" height="293" alt="image" src="https://github.com/user-attachments/assets/1ee10014-6cd6-43f6-8009-ea92e25b3718" />
 ### Verify Installation
 
 ```bash
