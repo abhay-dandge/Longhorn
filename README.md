@@ -98,6 +98,7 @@ Delete and recreate pod:
 kubectl delete pod nginx-longhorn
 kubectl apply -f manifests/nginx-pod.yaml
 ```
+<img width="598" height="111" alt="image" src="https://github.com/user-attachments/assets/5f653a1a-cb5d-4513-935a-b1ec1d614840" />
 
 Verify:
 
