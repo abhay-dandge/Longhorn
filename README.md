@@ -42,7 +42,14 @@ Node A  Node B Node C
 ```text
 longhorn-k8s-demo/
 ├── manifests/
+│   ├── namespace.yaml
+│   ├── pvc.yaml
+│   ├── nginx-pod.yaml
+│   └── storageclass-default.yaml
 ├── scripts/
+│   ├── install-longhorn.sh
+│   ├── uninstall-longhorn.sh
+│   └── verify-installation.sh
 └── README.md
 ```
 
