@@ -69,6 +69,7 @@ chmod +x scripts/install-longhorn.sh
 ### Verify Installation
 
 ```bash
+chmod +x scripts/verify-installation.sh
 ./scripts/verify-installation.sh
 ```
 
