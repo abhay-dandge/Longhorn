@@ -105,6 +105,7 @@ Verify:
 ```bash
 kubectl exec nginx-longhorn -- cat /data/test.txt
 ```
+<img width="735" height="73" alt="image" src="https://github.com/user-attachments/assets/bb99e38d-056f-427f-a5a1-53934ee7ed97" />
 
 ## Access Longhorn UI
 
