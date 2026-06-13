@@ -112,6 +112,7 @@ kubectl exec nginx-longhorn -- cat /data/test.txt
 ```bash
 kubectl -n longhorn-system port-forward svc/longhorn-frontend 8080:80
 ```
+<img width="910" height="95" alt="image" src="https://github.com/user-attachments/assets/fa0ae728-8cee-4c85-a7c8-7c546fd85dd4" />
 
 Open:
 
