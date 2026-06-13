@@ -79,6 +79,7 @@ chmod +x scripts/verify-installation.sh
 kubectl apply -f manifests/pvc.yaml
 kubectl apply -f manifests/nginx-pod.yaml
 ```
+<img width="609" height="108" alt="image" src="https://github.com/user-attachments/assets/eb2c0b5c-82d8-466b-93de-d2d4a31871aa" />
 
 ## Validate Storage
 
