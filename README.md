@@ -52,7 +52,7 @@ longhorn-k8s-demo/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/longhorn-k8s-demo.git
+git clone https://github.com/abhay-dandge/Longhorn.git
 cd longhorn-k8s-demo
 ```
 
