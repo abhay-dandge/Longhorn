@@ -40,7 +40,7 @@ Node A  Node B Node C
 ## Repository Structure
 
 ```text
-longhorn-k8s-demo/
+Longhorn/
 ├── manifests/
 │   ├── namespace.yaml
 │   ├── pvc.yaml
