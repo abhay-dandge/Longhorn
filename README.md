@@ -43,8 +43,7 @@ Node A  Node B Node C
 longhorn-k8s-demo/
 ├── manifests/
 ├── scripts/
-├── docs/
-└── images/
+└── README.md
 ```
 
 ## Installation
